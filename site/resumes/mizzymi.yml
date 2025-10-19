@@ -1,0 +1,152 @@
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Marina
+    last_name: Llado (Mizzy)
+    
+    # Define yourself in 4-5 words
+    motto: I love art and programming
+    
+    # Focus
+    focus: Creating mobile apps and websites
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Creative and versatile professional passionate about both fashion design and
+      programming.
+      Currently developing my own inclusive clothing brand that combines design,
+      technology, and craftsmanship.
+      Motivated by continuous learning, practical problem-solving, and creating positive
+      experiences in any environment
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cfuMCyfetOjRdB9Vnz8ZzfrOhvOYQEdofw&s
+
+    # Contact Information
+    email: mizzymi.studios@gmail.com
+    phone: +34 676 00 10 63
+    linkedin: https://www.linkedin.com/in/MarinaLlob
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: mizzymi
+    
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: B2
+
+      - idiom: Catalan
+        level: Native
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Sewing
+
+      - item: Programming
+
+      - item: Illustating
+
+      - item: Design
+
+# Your previous education
+education:
+    - degree: Editing and Illustration in Photoshop
+      university: ESPAI
+
+    - degree: High-Risk Food Handling Course
+      university: Pymes Commercial Platform
+
+    - degree: Social Healthcare for Dependent Individuals in Social Institution
+      university: Mordred S.L.
+
+    - degree: Introduction to Programming with JavaScript
+      university: CIFO Barcelona La Violeta
+
+    - degree: Higher Course in Full Stack Web Development
+      university: CIFO Barcelona La Violeta
+
+    - degree: Full-stack bootcamp
+      university: 4Geeks Academy
+      
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Customer Service
+      time: 2023 - 2024
+      company: Specialisterne España
+      details: |
+        Delivered and explained audio guides to visitors.
+        Maintained exhibition materials and ensured visitor safety.
+        Resolved inquiries and created a positive visitor experience.
+
+    - role: Temporary Administrative Assistant
+      time: 2022 - 2022
+      company: Applus+
+      details: |
+        Scheduled inspections and managed client appointments.
+        Organized documentation, billing, and reports.
+        Supported coordination between administrative and technical teams
+
+    - role: Auxiliary Staff
+      time: 2025 - Present
+      company: Telepizza
+      details: |
+        Assisted in the preparation and serving of food.
+        Maintained cleanliness and organization in the dining area.
+        Supported customer service and order delivery.
+        Collaborated with the team to ensure efficient operations.
+
+# Your project portfolio
+projects:
+    intro: >
+      Full-Stack Developer specialized in MERN and Flutter, building complete and scalable applications
+
+    assignments:
+      - title: Cooking Social Network
+        link: "https://github.com/mizzymi/DishConnect"
+        tagline: "Full platform to share recipes, follow chefs, and chat with your chef friends. Authentication, Real-time feed, Image uploads, Likes & comments, live chat"
+
+      - title: EcoPulse
+        link: "https://github.com/mizzymi/EcoPulse"
+        tagline: "Mobile app to manage expenses, income, and personal budgets. Interactive charts, Expense categorization, Invite people to your economic unit"
+
+      - title: Website Builder
+        link: "https://github.com/mizzymi/AtlasStudio"
+        tagline: "Web tool to create and edit sprite atlases visually and interactively with React code export. Visual editor, Code export, Templates, Responsive design preview"
+
+      - title: Personal Portfolio
+        link: "https://github.com/mizzymi/Portfolio"
+        link: "https://portfoliomizzy.reimii.com/"
+        tagline: "My web portfolio with advanced animations and dark/light theme. Smooth animations, Dark mode, Responsive, SEO optimized"
+
+skills:
+    toolset:
+      - name: React
+        level: 90%
+
+      - name: TypeScript
+        level: 92%
+
+      - name: Node.js
+        level: 88%
+
+      - name: MongoDB
+        level: 80%
+
+      - name: Flutter
+        level: 65%
+
+      - name: Sketch & Photoshop
+        level: 99%
